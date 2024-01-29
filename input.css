@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body{
+        @apply font-Outfit
+    }
+    p{
+        @apply text-base
+    }
+    ul li{
+        list-style-type: disc;
+        @apply text-Nutmeg
+        
+    }
+    ul li span {
+        @apply text-black   relative left-3
+    }
+    
+    ol li {
+        list-style-type: decimal;
+        @apply text-Nutmeg font-bold
+    }
+    ol li span {
+        
+        @apply text-black   relative left-3 font-normal
+        
+    }
+}
+
+.preparation-time li {
+    @apply text-DarkRaspberry
+}
